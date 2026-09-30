@@ -22,3 +22,21 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven build output
+target/
+
+# Secrets and local config
+.env
+application-local.properties
+
+# Editor / IDE files
+.idea/
+.vscode/
+
+# Node (in case you use npm tools later)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
